@@ -267,28 +267,8 @@ p {
   font-size: 36px;
 }
 
-.credit-amount--file-page {
-  font-family: 'metropolis-bold';
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.credit-amount--free {
-  color: var(--color-credit-free);
-
-  &.credit-amount--file-page {
-    color: var(--color-dark-blue);
-    background-color: var(--color-secondary);
-  }
-}
-
 .credit-amount--cost {
   color: var(--color-credit-price);
-
-  &.credit-amount--file-page {
-    color: var(--color-black);
-    background-color: var(--color-yellow);
-  }
 }
 
 .credit-amount--inherit {
